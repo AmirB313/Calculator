@@ -111,11 +111,11 @@ const themeSelectorHandler = (event) => {
     let themeNumber = event.target.value;
     let styleLink = document.querySelector('#theme-style');
     if (themeNumber === "1") {
-        styleLink.href = "/stylesheets/theme-one.css";
+        styleLink.href = "stylesheets/theme-one.css";
     } else if (themeNumber === "2") {
-        styleLink.href = "/stylesheets/theme-two.css"
+        styleLink.href = "stylesheets/theme-two.css"
     } else if (themeNumber === "3") {
-        styleLink.href = "/stylesheets/theme-three.css"
+        styleLink.href = "stylesheets/theme-three.css"
     }
 }
 
